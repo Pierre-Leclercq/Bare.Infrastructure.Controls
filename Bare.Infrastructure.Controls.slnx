@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/examples/">
+    <Project Path="examples/Bare.Infrastructure.Controls.Poc/Bare.Infrastructure.Controls.Poc.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Bare.Infrastructure.Controls/Bare.Infrastructure.Controls.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Bare.Infrastructure.Controls.Tests/Bare.Infrastructure.Controls.Tests.csproj" />
+  </Folder>
+</Solution>

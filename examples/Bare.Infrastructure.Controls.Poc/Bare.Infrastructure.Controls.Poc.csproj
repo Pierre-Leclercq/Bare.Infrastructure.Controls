@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Bare.Infrastructure.Controls\Bare.Infrastructure.Controls.csproj" />
+    <ProjectReference Include="..\..\..\Bare.Primitive.UI\src\Bare.Primitive.UI\Bare.Primitive.UI.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework Condition="$([System.String]::Copy('$(NETCoreSdkVersion)').StartsWith('10.'))">net10.0</TargetFramework>
+    <TargetFramework Condition="'$(TargetFramework)' == ''">net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
